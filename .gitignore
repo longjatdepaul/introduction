@@ -1,9 +1,11 @@
 HELP.md
 target/
-data/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+### Data Files ###
+people.list
 
 ### STS ###
 .apt_generated
