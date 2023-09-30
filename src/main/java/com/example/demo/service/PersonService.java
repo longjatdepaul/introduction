@@ -27,6 +27,10 @@ public class PersonService {
         return personDao.selectAllPeople();
     }
 
+    public List<Person> findPeople(int age) {
+        return personDao.queryForPeople(age);
+    }
+
     public Optional<Person> getPersonById(UUID id) {
         return personDao.selectPersonById(id);
     }

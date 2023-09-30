@@ -19,6 +19,8 @@ public interface PersonDao {
 
     Optional<Person> selectPersonById(UUID id);
 
+    List<Person> queryForPeople(int age);
+
     int deletePersonById(UUID id);
 
     int updatePersonById(UUID id, Person person);
